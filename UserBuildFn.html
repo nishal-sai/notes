@@ -66,11 +66,68 @@ return result
 To call a function, write its name followed by parentheses () and pass arguments if needed.</div>
 <h3>Example:</h3>
 <div id="b11"><pre>print (square (4))</pre></div>
-<h3></h3>
-<div id="b12"></div>
-<h3></h3>
-<div id="b13"></div>
-        </main>
+<h3>4) FUNCTION PARAMETERS [Arguments]</h3>
+<div id="b12">Parameters are values passed to a function when it is called.
+They allow the function to work with different inputs.</div>
+<h3>Example:</h3>
+<div id="b13"><PRE>def greet (name) :
+print("Hello,", name)
+<b>#Call:</b>
+greet ("Anu")
+</PRE></div>
+<h3>5) RETURN STATEMENTS</h3>
+<div id="b13">The return statement is used to send the result from the function back to the part of the program
+that called it.
+If there is no return statement, the function returns None by default.</div>
+<h3>Example:</h3>
+<div id="b13"><pre>def multiply(a, b):
+return a* b
+</pre></div>
+<h3>Types of User-defined Functions</h3>
+<div id="b14">Python allows different types of user-defined functions depending on parameters and return
+values.</div>
+<h3>1) Function without Parameters and without Return Value
+</h3>
+<div id="b15"><ul><li>This type of function does not take any input and does not return any value.</li><li>It simply performs a task.</li></ul></div>
+<h3>Example:</h3>
+<div id="b16"><pre>def welcome ():
+print ("Welcome to Python Programming!")
+welcome ()
+<b>#Output:</b>
+Welcome to Python Programming!
+</pre></div>
+<h3>2) Funetion with Parameters but without Return Value
+</h3>
+<div id="b17"><ul><li>This function accepts input values but does not return any result.
+</li><li>It performs an operation and displays the result inside the function.
+</li></ul></div>
+<h3>Example:</h3>
+<div id="b18"><pre>def display_name (name):
+print ("Hello,", name)
+display_name ("Meera")
+<b>#Output:</b>
+Hello, Meera
+</pre></div>
+<h3>3) Funetion without Parameters but with Return Value</h3>
+<div id="b19">This function does not take any arguments but returnsa value to the caller.</div>
+<h3>Example:</h3>
+<div id="b20"><pre>def get_pi():
+return 3.14159
+print ("Value of pi:", get_pi())
+<b>#Output:</b>
+Value of pi: 3.14159<pre></div>
+<h3>4) Function with Parameters and with Return Value
+</h3>
+<div id="b21"><ul><li>This is the most commonly used type.</li><li>It accepts arguments, performs a task, and returns a result.</li></ul></div>
+<h3>Example:</h3>
+<div id="b22"><pre>def add(a, b):
+return a + b
+result = add(5, 7)
+print("Sum =", result)
+<b>Output:</b>
+Sum = 12
+</pre></div>
+</main>
         <footer>
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             <hr>
