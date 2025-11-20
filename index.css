@@ -40,10 +40,28 @@ img{
     100%{color:rgb(255, 0, 55);}
 
 }
+
 h3{
     color: aliceblue;
     font-size: 30px;
     margin-left: 20px;
+
+    display: inline-block;
+    border-radius: 10px;
+     animation: heg linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+            box-shadow: 0px 0px 10px white;
+            padding: 5px;
+}
+@keyframes heg{
+    from{
+
+       box-shadow: 0px 0px 0px black;
+    }
+    to{
+     box-shadow: 0px 0px 30px white;
+    }
 }
 p{
     color: white;
@@ -73,61 +91,67 @@ div{
     background-color: rgb(66, 211, 211);
 }
 #b4{
-    background-color: rgb(24, 126, 126);
+    background-color: rgb(194, 241, 22);
 }
 #b5{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(36, 212, 51);
 }
 #b6{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(214, 89, 177);
 }
 #b7{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(23, 202, 172);
 }
 #b8{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(55, 103, 235);
 }
 #b9{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(132, 22, 175);
 }
 #b10{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(223, 73, 178);
 }
 #b11{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(142, 179, 226);
 }
 #b12{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(223, 161, 28);
 }
 #b13{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(138, 197, 27);
 }
 #b14{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(75, 202, 219);
 }
 #b15{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(150, 206, 45);
 }
 #b16{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(206, 51, 172);
 }
 #b17{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(177, 207, 120);
 }
 #b18{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(122, 189, 228);
 }
 #b19{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(167, 224, 62);
 }
 #b20{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(212, 43, 72);
 }
 #b21{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(223, 100, 151);
 }
 #b22{
-    background-color: rgb(90, 126, 24);
+    background-color: rgb(176, 212, 108);
+}
+#b100{
+    background-color: rgb(92, 188, 243);
+}
+#b101{
+    background-color: rgb(190, 86, 92);
 }
 
 span{
